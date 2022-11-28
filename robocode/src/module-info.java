@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author bfo
- *
- */
-module robocode {
-}
