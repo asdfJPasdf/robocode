@@ -8,7 +8,9 @@ public class Cybertank_tank {
 	}
 	
 	public void onHitWall() {
+		
 		robot.turnRight(90);
+		
 	}
 
 	// We still aren't moving - just turning in a circle
