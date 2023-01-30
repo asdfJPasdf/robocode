@@ -30,7 +30,7 @@ public class Cybertank_cannon {
 		int turnsAgo = robot.getTurn() - turnSeen;
 		if (target != null & turnsAgo <= 3) {
 			double power = 3;
-			if (target.getDistance() > 300)
+			if (target.getDistance() > 200)
 				power = 1;
 			double gunHeading = Utils.normalRelativeAngle(robot.getGunHeadingRadians());
 			double gunTurn = targetDirection - gunHeading;
